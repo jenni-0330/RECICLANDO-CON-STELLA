@@ -1,0 +1,231 @@
+*{ box-sizing: border-box;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-wrapper{
+background:linear-gradient(rgba(53, 133, 139, 0.719), rgba(61, 243, 213, 0.356)), url("../Imagenes/fondo.jpeg") no-repeat center top;
+background-size: cover;
+color: white;
+}
+
+header {
+    padding: 10px 0;
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    color: white;
+    right: auto;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+}
+
+header nav{
+    float: right;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+header nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+
+header nav a.active{
+    background: rgb(12, 87, 87);
+    border-radius: 5px;
+}
+
+/* .buscar{
+    position: absolute;
+    padding: 15px;
+    top: 15px;
+    left: 80%;
+}
+
+.buscar input{
+    width: 0;
+    height: 26px;
+    padding: 5px 10px;
+    font-size: 19px;
+    border-radius: 30px;
+    outline: none;
+    color: rgb(25, 25, 25);
+    border: 2px solid #fed136;
+    transition: all 2s ease;
+}
+
+.buscar:hover input{
+    width: 200px;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #fed136;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+} */
+
+
+#home{
+    text-align: center;
+    padding: 200px 0 150px;
+}
+
+#home h1{
+    font-size: 70px;
+    font-weight: normal;
+}
+
+#home p {
+    font-size: 30px;
+}
+
+#home .social{
+    margin-top: 80px;
+}
+
+#home .social a {
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #222;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#home .social a:hover{
+    background-color: rgb(12, 87, 87);
+}
+
+#home .divider{
+    width: 100px;
+    border-top: 5px solid #14E088;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px;
+}
+
+section h2{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(0, 152, 159);
+    margin-bottom: 80px;
+}
+
+#portafolio{
+    background-color: rgb(210, 255, 236);
+}
+
+#portafolio .box{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    background-color: rgb(21, 85, 88);
+}
+
+#video{
+    background-color: rgb(21, 85, 88);
+    text-align: center;
+    padding: 25px 0;
+}
+
+#portafolio .box img{
+    width: 100%;
+}
+
+#portafolio .box p{
+    color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+#portafolio .box a{
+    text-decoration: none;
+    color: black;
+}
+
+#portafolio .box img:hover{
+    transform: scale(0.8);
+    transition: all 0.6s ease;
+}
+
+#contacto{
+    background-image: url(../Imagenes/fondo\ contacto\ \(2\).jpg);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#contacto h2{
+    color:hsl(183, 100%, 31%);
+}
+
+#contacto input{
+    padding: 20px;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#contacto textarea{
+    width: 400px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#contacto button{
+    background: rgb(33, 132, 138);
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-color: rgb(33, 132, 138);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+}
+
+.container{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
